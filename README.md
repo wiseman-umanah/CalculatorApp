@@ -15,6 +15,8 @@ For this program, you can install the app from the source file on github
 The app is locate in the folder named ``app``, You can then copy the app to anywhere in your computer
 Or Use the link below
 ```https://github.com/wiseman-umanah/CalculatorApp/blob/master/app/calculator1.exe```
+Be sure to remove any antivirus check to allow the app run on your device. This app is not a Malware 👇
+
 
 Install from here:
 ![Alt text](image.png)
