@@ -1,0 +1,176 @@
+=============
+
+INTRODUCTION
+
+=============
+
+The calculator app uses Python built-in GUI (Graphical User Interface) class - tkinter - to give the user the app-based calculator feeling. It comprises of buttons and entry points where users of the app can easily make use of its functions to carry out simple operations. It accepts integers and floating point numbers(decimal numbers)
+
+
+==========
+
+FUNCTIONS
+
+==========
+
+The Calculator can carry out simple operations like;
+
+1. Addition
+
+2. Subtraction
+
+3. Multiplication
+
+4. Division
+
+
+Other simple scientific operations include;
+
+5. Trigonometry function - sin., cos, tan
+
+6. Exponentiation
+
+7. Square root of numbers
+
+8. +/-
+
+
+======
+
+USAGE
+
+======
+
+The calculator operates one arithmetic operation at a time
+
+##ADDITION - The calculator simply adds up numbers just like any other common calculation. 
+
+>>> 15    #The calculator stores this number to be used later in operation
+
+>>> '+'    #The operation to be carried out
+
+>>> 149  #The second number which is then added intelligently by the calculation and stored for retrieval
+
+>>> '='    #This retrieves the result and displays it in screen for user
+
+
+##SUBTRACTION - The calculator simply subtracts two numbers just like any other common calculation. 
+
+>>> 15    #The calculator stores this number to be used later in operation
+
+>>> '-'    #The operation to be carried out
+
+>>> 149  #The second number which is then added intelligently by the calculation and stored for retrieval
+
+>>> '='    #This retrieves the result and displays it in screen for user
+
+
+##MULTIPLICATION - The calculator simply multiplies two numbers just like any other common calculation. 
+
+>>> 15    #The calculator stores this number to be used later in operation
+
+>>> '*'    #The operation to be carried out
+
+>>> 149  #The second number which is then added intelligently by the calculation and stored for retrieval
+
+>>> '='    #This retrieves the result and displays it in screen for user
+
+
+##DIVISION - The calculator simply divides two numbers just like any other common calculation. 
+
+>>> 15    #The calculator stores this number to be used later in operation
+
+>>> '/'    #The operation to be carried out
+
+>>> 149  #The second number which is then added intelligently by the calculation and stored for retrieval
+
+>>> '='    #This retrieves the result and displays it in screen for user
+
+
+##TRIGONOMETRY OPERATIONS - This convert numbers into the angle specified by the user
+
+>>> 60   #number/angle
+
+>>> 'sin' | 'cos' | 'tan"    # '|' - this means than any of the function can be used, the number is then converted based on the operator given
+
+
+##EXPONENTIATION - The function displays the exponential of a number based on the power given by user
+
+>>> 2   #The base number
+
+>>> 'x**y'  #The operator
+
+>>> 4    #This is equivalent to 2 raised to the power of 4
+
+
+##+/-  - This flips number from negative to positive and vice versa
+
+>>> 2.5
+
+>>> '+/-' 
+
+>>> -2.5     #number is now a negative value
+
+>>> '+/-'  
+
+>>> 2.5  #number is changed to positive
+
+
+The Calculator intelligently understands when to display a float and when to display an integer in cases where an integer and a float is involved in the calulation. 
+
+
+===============
+
+ERROR HANDLING 
+
+===============
+
+1. Division involving zero - The calculator displays "MATH ERROR" for divisions like the one in the example below;
+
+>>> 14
+
+>>> '/' 
+
+>>> 0 #An error is displayed to the screen to notify the user
+
+
+2. Syntax Error  - If the operation is wrong like the example below, a message "SYNTAX ERROR" is displayed to screen
+
+>>> '*' - #we are trying to carry out an operation without a number for the calculator to work with
+
+>>> "=" - #This tries to carry out the operation and discovers that a number is not given which leads to error
+
+
+3. Wrong Input - Assigning a wrong input or non-integer is the process of execution displays an error message to screen "SYNTAX ERROR". For instance;
+
+>>> 'hcwhiwj'   #wrong input
+
+>>> '+'    #SYNTAX ERROR displayed
+
+
+===========================
+
+HOW THE CALCULATOR WORKS
+
+===========================
+
+1. Important libraries to be used throughout execution is created
+
+2. The code runs in a confined loop that allows execution continuously until the user closes the app
+
+3. Calculator waits for user's input from the button or from the keyboard (this only works when you type a number, if any other thing rather than a number is passed, the syntax error will be displayed) 
+
+4. Operation from User, this will trio=gger the functionassociated to the operation button for calculator to carry out operation, the first value is stored, the calculator is set to carry out that operation, and tne display reset back to allow another input
+
+      a. User can now input another number
+
+      b. '=' this displays the result after the operation clicked by the user
+
+5. For operations like trigonometry functions and square root, the calculator will automatically display the result
+
+6. The result displayed by the calculator are TRUE
+
+
+
+Copyright © All rights reserved
+Wiseman Umanah
